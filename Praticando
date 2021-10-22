@@ -68,7 +68,7 @@ exercicio 12
 
 preco = float(input("Digite o preço do produto : "))
 
-desconto = preco * 0.05
+desconto = preco * 0.10
 
 print("O produto com desconto é {} ".format(preco-desconto))
 
@@ -78,7 +78,7 @@ exercicio 13
 
 salario = float(input("Digite o salario do funcionario :"))
 
-aumento = salario* 0.15
+aumento = salario* 0.25
 
 print("O novo salario com aumento de 15 % é : {} ".format(salario+aumento))
 
