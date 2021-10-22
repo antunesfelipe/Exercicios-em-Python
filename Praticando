@@ -1,0 +1,84 @@
+#Exercícios para praticar # Feitos através do curso do Gustavo Guanabara via Youtube.
+
+exercicio 5
+
+num1 = int(input("Digite o primeiro numero : "))
+
+print("O numero digitado foi {}. \nAntecessor é : {} \nSucessor é : {}".format(num1,num1-1,num1+1))
+
+
+
+exercicio 6
+
+
+num1 = int(input("Digite um numero :"))
+
+print("O dobro de {} é {}".format(num1,num1*2))
+print("O triplo de {} é {}".format(num1,num1*3))
+print("A raiz quadrada de {} é {:.2f}".format(num1,num1**(1/2)))
+
+exercicio 7
+
+nome = input("Digite o nome do aluno :")
+nota1 = float(input("Digite o valor da primeira nota : "))
+nota2 = float(input("Digite o valor da segunda nota : "))
+
+media = (nota1+nota2)/2
+
+print("As notas do aluno {} foram : {} e {} . \n Sua média foi {}".format(nome,nota1,nota2,media))
+
+
+exercicio 9
+
+
+
+num1 = int(input("Digite um numero para ver sua tabuada : \n"))
+
+i=0
+while (i<10):
+    i=i+1
+
+    print("Tabuada : {} * {} = {} ".format(num1,i,num1*i))
+
+
+
+exercicio 10
+
+
+valorCarteira = float(input("Digite o valor que tem na carteira : "))
+valorDolar = float(3.27)
+
+
+print("Voce pode comprar {} doláres ".format(valorCarteira*valorDolar))
+
+
+exercicio 11
+
+largura = float(input("Digite a largura da parede : "))
+altura = float(input("Digite a altura da parede : "))
+
+
+area = largura*altura
+litroDeTinta = area / 2
+
+print("Voce precisa de {} litros de tinta para pintar toda a parede".format(litroDeTinta))
+
+exercicio 12
+
+
+preco = float(input("Digite o preço do produto : "))
+
+desconto = preco * 0.05
+
+print("O produto com desconto é {} ".format(preco-desconto))
+
+
+exercicio 13
+
+
+salario = float(input("Digite o salario do funcionario :"))
+
+aumento = salario* 0.15
+
+print("O novo salario com aumento de 15 % é : {} ".format(salario+aumento))
+
